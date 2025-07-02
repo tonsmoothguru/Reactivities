@@ -3,7 +3,7 @@ using Domain;
 namespace Persistence;
 
 // This class is responsible in seeding data to the database
-public class DbInitializer
+public static class DbInitializer
 {
     public static async Task SeedData(AppDbContext context)
     {
